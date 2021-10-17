@@ -1,2 +1,2 @@
 # Frasa
-Membangun kinerja web yang 'optimal'
+Membangun kinerja web yang `optimal``
