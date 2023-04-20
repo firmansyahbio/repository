@@ -294,7 +294,16 @@ to { opacity: 1; transform: translateY(0);
 
 /*========================== @ NAMA : No Copy Paste @ DOCS : Css @ CLASS : #nocopy ===========================*/
 
+
 #nocopy { 
+  user-select:none; 
+  -moz-user-select:none;
+  -ms-user-select:none;
+  -khtml-user-select:none;     
+  -webkit-user-select:none;
+ }
+
+cakra { 
   user-select:none; 
   -moz-user-select:none;
   -ms-user-select:none;
