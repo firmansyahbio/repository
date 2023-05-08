@@ -1197,7 +1197,11 @@ background-color: rgb(255, 255, 255);
 }
 
 
-/*=== 4.Footbox > Copyright ===*/
+/*=== Mainbox > Footbox ===*/
+.mainbox {
+  padding-left: 20px;
+  box-sizing: border-box;
+}
 .footbox {
   /*background: #fff;
   color: #000;*/
