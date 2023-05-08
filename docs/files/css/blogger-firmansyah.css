@@ -1242,7 +1242,20 @@ background-color: rgb(255, 255, 255);
   }
 
  
-
+.footer_svg {
+  background-color: #CFDBEA;
+  }
+.footer_svg .by_frasa {
+  width: none;
+  height: 37px;
+  color: #ffffff;
+  margin-top: -8px;
+  display: block;
+  border-top: 1px #4E4DED solid;
+  position: relative;
+  text-align: center;
+  background: #4E4DED;
+}
 
 /*=== 1.Share > Share Dialog ===*/
  .share-dialog {
