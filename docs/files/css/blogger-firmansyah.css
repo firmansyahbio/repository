@@ -1256,7 +1256,12 @@ background-color: rgb(255, 255, 255);
   text-align: center;
   background: #4E4DED;
 }
-
+.footer_svg .by_frasa p{
+  font-size: 16px;
+}
+.footer_svg .by_frasa p a {
+  color: white;
+}
 /*=== 1.Share > Share Dialog ===*/
  .share-dialog {
 position: fixed;
