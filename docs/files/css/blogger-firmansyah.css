@@ -140,13 +140,21 @@ h3.entry-title a {
 
 /* Paragraf and Tag Code 
 ---------------------------------------------------*/
+.post-body ol li,
+.post-body ul li {
+  font-size: 16px;
+  color: #000000;
+  font-family: 'Source Sans Pro', sans-serif;
+  }
+
 .post-body p {
   font-size: 16px;
   color: #000000;
   margin-bottom: 30px;
   font-family: 'Source Sans Pro', sans-serif;
   }
-
+.post-body ol li code,
+.post-body ul li code,
 .post-body p code {
   color: #ffffff;
   font-size: 14px;
