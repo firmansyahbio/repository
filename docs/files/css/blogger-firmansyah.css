@@ -314,7 +314,8 @@ to { opacity: 1; transform: translateY(0);
   -webkit-user-select:none;
  }
 
-cakra { 
+cakra {
+  z-index: 2;
   user-select:none; 
   -moz-user-select:none;
   -ms-user-select:none;
@@ -323,9 +324,10 @@ cakra {
  }
 
 /*========================== 
-@ NAMA : Button See More 
-@ DOCS   : Css 
-@ CLASS : .click-more ===========================*/
+@ NAMA  : Post Artikel 
+@ DOCS  : Css
+@ CLASS : .post-body
+===========================*/
 
 .post-body .btn { 
   font-weight: bold;
@@ -487,7 +489,7 @@ cakra {
   padding-right: 5px;
   box-sizing: border-box;
   }
-</style>
+
 /* Div .click-more
 ---------------------------------------------------*/
  .post-body .click-more {
@@ -1078,7 +1080,11 @@ background-color: rgb(255, 255, 255);
   font-weight: 300;
 }
 
-/*=== WebJam ===*/ 
+/*========================== 
+@ NAMA  : Sidebar 
+@ DOCS  : Css
+@ CLASS : .sidebar-container
+===========================*/
 .sidebar-container .WebJam {
   color: #000; 
   width: none;
