@@ -153,8 +153,8 @@ h3.entry-title a {
   margin-bottom: 30px;
   font-family: 'Source Sans Pro', sans-serif;
   }
-.post-body ol li code,
-.post-body ul li code,
+.post-body ol.code li code,
+.post-body ul.code li code,
 .post-body p code {
   color: #ffffff;
   font-size: 14px;
