@@ -1125,8 +1125,16 @@ background-color: rgb(255, 255, 255);
   border-radius:100px;
   transition:all .3s ease; -webkit-animation:FirmansyahBio 5s 0s ease-in-out infinite; -webkit-transform-origin:50% 4px; -moz-animation:FirmansyahBio 5s 0s ease-in-out infinite; -moz-transform-origin:50% 4px; animation:FirmansyahBio 5s 0s ease-in-out infinite; transform-origin:50% 4px; background:url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M21,19V20H3V19L5,17V11C5,7.9 7.03,5.17 10,4.29C10,4.19 10,4.1 10,4A2,2 0 0,1 12,2A2,2 0 0,1 14,4C14,4.1 14,4.19 14,4.29C16.97,5.17 19,7.9 19,11V17L21,19M14,21A2,2 0 0,1 12,23A2,2 0 0,1 10,21M19.75,3.19L18.33,4.61C20.04,6.3 21,8.6 21,11H23C23,8.07 21.84,5.25 19.75,3.19M1,11H3C3,8.6 3.96,6.3 5.67,4.61L4.25,3.19C2.16,5.25 1,8.07 1,11Z' fill='%23767EEB'/%3E%3C/svg%3E") center center / 50px no-repeat;} .footer_box .my_social .social_links {text-align: center;} .footer_box .my_social .social_links a {width: 25px;color: #fff;height: 25px;padding: 5px;font-size: 20px;margin-left: 3px;margin-top: 6px;border-radius: 5px;background: #767eeb;display: inline-block;vertical-align: middle;} .footer_box .my_social .social_links a:hover {background: #4E4DED;} @-moz-keyframes FirmansyahBio{0% { -moz-transform: rotate(0); } 1% { -moz-transform: rotate(30deg); } 3% { -moz-transform: rotate(-28deg); } 5% { -moz-transform: rotate(34deg); } 7% { -moz-transform: rotate(-32deg); } 9% { -moz-transform: rotate(30deg); } 11% { -moz-transform: rotate(-28deg); } 13% { -moz-transform: rotate(26deg); } 15% { -moz-transform: rotate(-24deg); } 17% { -moz-transform: rotate(22deg); } 19% { -moz-transform: rotate(-20deg); } 21% { -moz-transform: rotate(18deg); } 23% { -moz-transform: rotate(-16deg); } 25% { -moz-transform: rotate(14deg); } 27% { -moz-transform: rotate(-12deg); } 29% { -moz-transform: rotate(10deg); } 31% { -moz-transform: rotate(-8deg); } 33% { -moz-transform: rotate(6deg); } 35% { -moz-transform: rotate(-4deg); } 37% { -moz-transform: rotate(2deg); } 39% { -moz-transform: rotate(-1deg); } 41% { -moz-transform: rotate(1deg); } 43% { -moz-transform: rotate(0); } 100% { -moz-transform: rotate(0); } } @keyframes FirmansyahBio{0% { transform: rotate(0); } 1% { transform: rotate(30deg); } 3% { transform: rotate(-28deg); } 5% { transform: rotate(34deg); } 7% { transform: rotate(-32deg); } 9% { transform: rotate(30deg); } 11% { transform: rotate(-28deg); } 13% { transform: rotate(26deg); } 15% { transform: rotate(-24deg); } 17% { transform: rotate(22deg); } 19% { transform: rotate(-20deg); } 21% { transform: rotate(18deg); } 23% { transform: rotate(-16deg); } 25% { transform: rotate(14deg); } 27% { transform: rotate(-12deg); } 29% { transform: rotate(10deg); } 31% { transform: rotate(-8deg); } 33% { transform: rotate(6deg); } 35% { transform: rotate(-4deg); } 37% { transform: rotate(2deg); } 39% { transform: rotate(-1deg); } 41% { transform: rotate(1deg); } 43% { transform: rotate(0); } 100% { transform: rotate(0); } } 
 
+.social_media {
+  display: flex;
+  justify-content: center;
+  }
+.social_links {
+  max-width: 300px;
+  }
+
 /*=== 4.Footer Box > My Links ===*/
- .footer_box .my_links {
+.footer_box .my_links {
   width:none;
   }
 .footer_box .my_links .links_title {
