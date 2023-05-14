@@ -1,11 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900'); @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap'); 
-
 /*========================== 
-@ NAMA  : Post 
+@ NAMA  : Body 
 @ DOCS  : Css / A / Blok-1 
-@ CLASS : .post
+@ CLASS : body
 ===========================*/
-
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900'); @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap'); 
 body {
   font-family: 'Source Sans Pro', sans-serif;
 }
@@ -1647,7 +1645,13 @@ color: #4E4DED;
   bottom: 20px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
-
+.menu-cuan .docs {
+  font-family: 'Encode Sans', sans-serif;}
+.sosial_media,
+.sintesis_apriori {
+  font-family: 'Encode Sans', sans-serif;
+  font-weight:900;
+}
 .custom_btn_paypal {
   width: none;
   height: 40px;
