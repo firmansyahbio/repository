@@ -1132,6 +1132,40 @@ background-color: rgb(255, 255, 255);
 @ DOCS  : Css
 @ CLASS : .sidebar-container
 ===========================*/
+#Followers1 {
+  padding: 15px;
+  box-sizing: border-box;
+  }
+.sidebar-container{
+/*background: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_geQGfZShPhqku8S7i9w_4z0hjJ_nJVkqK-K2IU1EQ2O0DPCDRr8yu3K3LQRgyAn6FT_4Pd6FiAGBeGAbBkqSQFrHsgKE7T-952E4jMe4gjhS3edH11rLqRwHRi45yA-RN9B1JyQKiBNSsaT6D11JjXIpigHmaD82jGaBb0M7uKN7Gl8gErLhHGiPfA/s1600/computer-3174729.jpg")
+    no-repeat center center fixed;
+    background-size: cover;*/
+background-color: #CFDBEA;
+color:$(sidebar.widget.text.color);
+font:$(sidebar.widget.text.font);
+min-height:100%;
+}
+html[dir=ltr] .sidebar-container{
+}
+html[dir=rtl] .sidebar-container{
+
+}
+.sidebar-container a{
+color:$(sidebar.action.color)
+}
+.sidebar-container .svg-icon-24{
+fill:#111;
+}
+.sidebar-container .widget{
+margin:0;
+margin-$startSide:0px;
+padding:0px;
+padding-$startSide:0
+}
+.sidebar-container .widget+.widget{
+border-top:0px solid $(sidebar.separator.color)
+}
+
 .sidebar-container .WebJam {
   color: #000; 
   width: none;
