@@ -310,6 +310,25 @@ to { opacity: 1; transform: translateY(0);
   }
 }
 
+.header-widget p{
+  width: 26ch;
+  animation: typing 2s steps(20), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 1px solid;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
 /*========================== @ NAMA : No Copy Paste @ DOCS : Css @ CLASS : #nocopy ===========================*/
 
 
