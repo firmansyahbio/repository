@@ -254,6 +254,7 @@ h3.entry-title a {
   margin-bottom: 30px;
   font-family: 'Source Sans Pro', sans-serif;
   }
+.code code,
 .post-body ol.code li code,
 .post-body ul.code li code,
 .post-body p code {
