@@ -206,7 +206,7 @@ h3.entry-title a {
 .post-body h6 {
   font-size: 20px;
   color: #191919;
-  line-height: 1.00em;
+  line-height: 0.90em;
   font-family: 'Source Sans Pro', sans-serif;
   } 
 
@@ -244,11 +244,7 @@ h3.entry-title a {
   opacity: 0.3;
   }
 
-/* Paragraf and Tag Code 
----------------------------------------------------*/
-#demolive {
-  font-size: 16px;
-}
+
 .post-body ol li,
 .post-body ul li {
   font-size: 16px;
@@ -352,13 +348,37 @@ h3.entry-title a {
   } 
 
 
-
  .blog-name {
   letter-spacing: 3px;
   text-shadow: 0 0.03em white, 0 0.04em #111;
   }
 
-
+/* Fieldset Demolive 
+---------------------------------------------------*/
+#demolive {
+  font-size: 16px;
+}
+.post-body #demolive legend {
+  color: #111;
+}
+.post-body #demolive h1 {
+  font-size: 32px;
+  }
+.post-body #demolive h2 {
+  font-size: 29px;
+  }
+.post-body #demolive h3 {
+  font-size: 27px;
+  }
+.post-body #demolive h4 {
+  font-size: 25px;
+  }
+.post-body #demolive h5 {
+  font-size: 22px;
+  }
+.post-body #demolive h6 {
+  font-size: 20px;
+  }
 /*========================== 
 @ NAMA  : Anime 
 @ DOCS  : Css / A / Blok-2 
