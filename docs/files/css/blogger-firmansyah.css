@@ -237,7 +237,12 @@ h3.entry-title a {
   letter-spacing: -0.05rem; 
   opacity: 0.3;
   }
-
+.post .post-body h5 code {
+  box-sizing: border-box;
+  font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;    
+  letter-spacing: -0.05rem; 
+  opacity: 0.3;
+  }
 
 /* Paragraf and Tag Code 
 ---------------------------------------------------*/
