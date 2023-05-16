@@ -359,26 +359,30 @@ h3.entry-title a {
   font-size: 16px;
 }
 .post-body #demolive legend {
-  color: #111;
+  color: #000000;
+}
+.post-body #demolive p{
+  margin-bottom: 0px;
 }
 .post-body #demolive h1 {
   font-size: 32px;
-  }
+}
 .post-body #demolive h2 {
   font-size: 29px;
-  }
+}
 .post-body #demolive h3 {
   font-size: 27px;
-  }
+}
 .post-body #demolive h4 {
   font-size: 25px;
-  }
+}
 .post-body #demolive h5 {
   font-size: 22px;
-  }
+}
 .post-body #demolive h6 {
   font-size: 20px;
-  }
+}
+
 /*========================== 
 @ NAMA  : Anime 
 @ DOCS  : Css / A / Blok-2 
