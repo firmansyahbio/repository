@@ -246,6 +246,9 @@ h3.entry-title a {
 
 /* Paragraf and Tag Code 
 ---------------------------------------------------*/
+#demolive {
+  font-size: 16px;
+}
 .post-body ol li,
 .post-body ul li {
   font-size: 16px;
