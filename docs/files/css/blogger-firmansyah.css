@@ -393,7 +393,14 @@ h3.entry-title a {
 	      transform: translate3d(var(--x), var(--y), var(--z));
 	transition: 2s cubic-bezier(0.33, 1, 0.53, 1);
 	}
-
+.demoview {
+  margin: 0;
+  padding: 5px; 
+  overflow: auto;
+  width: none; 
+  height: 100%;
+  box-sizing: border-box;
+}
 .post-body #demolive p{
   margin-bottom: 0px;
 }
