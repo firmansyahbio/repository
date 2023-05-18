@@ -357,7 +357,16 @@ h3.entry-title a {
 /* Fieldset Demolive 
 ---------------------------------------------------*/
 #demolive {
+	--x: 0;
+	--y: 0;
+	--z: 0;
+  padding: 0;
+  max-height: 400px;
+	-webkit-transform: translate3d(var(--x), var(--y), var(--z));
+	      transform: translate3d(var(--x), var(--y), var(--z));
+	transition: 2s cubic-bezier(0.33, 1, 0.53, 1);
   font-size: 16px;
+	border-radius:5px;
 }
 
 .post-body #demolive legend {
@@ -367,16 +376,7 @@ h3.entry-title a {
   margin-left: 10px;
   color: #000000;
 }
-#demolive {
-	--x: 0;
-	--y: 0;
-	--z: 0;
-  padding: 0;
-  max-height: 400px;
-    -webkit-transform: translate3d(var(--x), var(--y), var(--z));
-	      transform: translate3d(var(--x), var(--y), var(--z));
-	transition: 2s cubic-bezier(0.33, 1, 0.53, 1);
-}
+	
 .demolive {
 	--x: 0;
 	--y: 0;
