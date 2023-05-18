@@ -359,9 +359,41 @@ h3.entry-title a {
 #demolive {
   font-size: 16px;
 }
+
 .post-body #demolive legend {
+  margin-top: -15px;
+  background: #EAEEF6;
+  position: absolute;
+  margin-left: 10px;
   color: #000000;
 }
+#demolive {
+	--x: 0;
+	--y: 0;
+	--z: 0;
+  padding: 0;
+  max-height: 400px;
+    -webkit-transform: translate3d(var(--x), var(--y), var(--z));
+	      transform: translate3d(var(--x), var(--y), var(--z));
+	transition: 2s cubic-bezier(0.33, 1, 0.53, 1);
+}
+.demolive {
+	--x: 0;
+	--y: 0;
+	--z: 0;
+	display: block;
+	height: 100%;
+	position: block;
+  top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 105;
+    -webkit-transform: translate3d(var(--x), var(--y), var(--z));
+	      transform: translate3d(var(--x), var(--y), var(--z));
+	transition: 2s cubic-bezier(0.33, 1, 0.53, 1);
+	}
+
 .post-body #demolive p{
   margin-bottom: 0px;
 }
