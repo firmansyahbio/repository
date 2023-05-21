@@ -417,9 +417,9 @@ h3.entry-title a {
 }
 
 /*========================== 
-@ NAMA  : Anime 
-@ DOCS  : Css / A / Blok-2 
-@ CLASS : .post
+@ NAMA  : Animation 
+@ DOCS  : Css / Blok-A / E
+@ STYLE : .animasi
 ===========================*/
 
 .scroll,
@@ -494,9 +494,12 @@ to { opacity: 1; transform: translateY(0);
     border-color: transparent
   }
 }
-/*========================== @ NAMA : No Copy Paste @ DOCS : Css @ CLASS : #nocopy ===========================*/
 
-
+/*========================== 
+@ NAMA  : Sidebar 
+@ DOCS  : Css / Blok-A / C
+@ STYLE : .container-sidebar
+===========================*/
 #nocopy { 
   user-select:none; 
   -moz-user-select:none;
@@ -515,9 +518,9 @@ cakra {
  }
 
 /*========================== 
-@ NAMA  : Post Artikel 
-@ DOCS  : Css
-@ CLASS : .post-body
+@ NAMA  : Drcoration 
+@ DOCS  : Css / Blok-A / F
+@ STYLE : body
 ===========================*/
 
 .post-body .btn { 
@@ -540,8 +543,11 @@ cakra {
   color: white!important;
   }
 
-/*========================== @ NAMA : Accessories Group @ DOCS : Css @ CLASS : ===========================*/ 
-
+/*========================== 
+@ NAMA  : Properti 
+@ DOCS  : Css / Blok-A / G
+@ STYLE : .pin
+===========================*/
 /* Div .soleram
 ---------------------------------------------------*/
  .post-body .soleram p {
@@ -807,9 +813,10 @@ to { opacity: 1; transform: translateY(0);
 }
 
 /*========================== 
-@ NAMA : Tag audio 
-@ DOCS : Css 
-@ CLASS : audio ===========================*/
+@ NAMA  : Sidebar 
+@ DOCS  : Css / Blok-A / H
+@ STYLE : .js
+===========================*/
 .js-scroll {
   opacity: 0;
   transition: opacity 500ms;
@@ -876,7 +883,11 @@ to { opacity: 1; transform: translateY(0);
   }
 }
 
-/*========================== @ NAMA : Button Prev and Next @ DOCS : Css @ CLASS : .prev-and-next ===========================*/
+/*========================== 
+@ NAMA  : Sidebar 
+@ DOCS  : Css / Blok-A / C
+@ STYLE : .container-sidebar
+===========================*/
 
 .post-body .prev-and-next {
   height: 50px;
@@ -967,11 +978,6 @@ to { opacity: 1; transform: translateY(0);
   }
 
 
-/*========================== 
-@ NAME : Music 
-@ DOCS : Css 
-@ CLASS : music_bio 
-==========================*/ 
 
 
 /* Code Overview
@@ -1049,15 +1055,9 @@ to { opacity: 1; transform: translateY(0);
   border-radius: 0 0 0px 0px;
 }
 
-/*=== .container_torial_bar ===*/ 
+ 
 /*--- Grid ---*/
  .post .post-body .container_photos .photos_post [value="grid"]:checked ~ main {display: grid;grid-template-rows: auto;grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr));gap: 1rem;} /*--- Multicolumn ---*/ .post .post-body .container_photos .photos_post [value="multicolumn"]:checked ~ main {display: block;columns: 12rem;gap: 1rem;} .post .post-body .container_photos .photos_post [value="multicolumn"]:checked ~ main figure {margin-bottom: 1rem;break-inside: avoid;} /*--- Flexbox, row direction ---*/ .post .post-body .container_photos .photos_post [value="flexbox"]:checked ~ main {display: flex;flex-wrap: wrap;gap: 1rem;} .post .post-body .container_photos .photos_post [value="flexbox"]:checked ~ main figure {flex: 1 1 12rem;} .post .post-body .container_photos .photos_post main {margin: 1rem 0;} .post .post-body .container_photos .photos_post main figure {margin: 5px;} .post .post-body .container_photos .photos_post main figure img { width: 100%; display: block;border-radius: 0 0 5px 5px;} .post .post-body .container_photos .photos_post main figure figcaption {padding: 0.5rem 1rem 0.4rem;background: #4E4DED;color: #ffffff;border-radius: 5px 5px 0 0;text-align: left;font-family: 'Source Sans Pro', sans-serif;} .post .post-body .container_photos .photos_post input {margin: 0;} .post .post-body .container_photos .photos_post label {font-size: 19px;color: #767EEB;font-weight: bold;text-align: left;margin: 0 1.1rem 0 0.1rem;font-family: 'Source Sans Pro', sans-serif;} 
-
-
-/*===============================
-@ Docs     : Container
-@ Class    : Css Group ===============================*/
-
 
 /* Container Quotes 
 ---------------------------------------------------*/
@@ -1095,9 +1095,6 @@ to { opacity: 1; transform: translateY(0);
  
  /*=== .container_design ===*/
  .container_design .choose { transition: .4s; overflow: hidden; border-radius: 5px; position: relative; text-align: center; } .container_design .choose::before { content: ""; height: 70%; width: 90%; border-radius: 50%; position: absolute; top: -130px; right: 0; left: 0; margin: auto; background: rgba(36, 49, 224, 0.27); } .container_design .choose:hover{ background: #fff; transform: translateY(-10px); box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1); } .container_design .choose:hover span i{ color: white; background: #4E4DED; } .container_design .choose span i::before { margin-left: 0; font-size: 40px; } .container_design .choose span i { height: 85px; width: 85px; line-height: 85px; background: white; border-radius: 50%; color: #767EEB; position: relative; transition: .6s; display: inline-block; } 
-
-/*========================== @ NAME : Skill @ DOCS : Css @ PT-CLASS : Bar @ SINTEKSIS : Skill ==========================*/ 
-
 
 .menu-materi-learning {
   border:0px solid #4E4DED;
@@ -1235,8 +1232,7 @@ background-color: rgb(255, 255, 255);
   border:1px solid #4E4DED;
   font-family:Helvetica,Arial,sans-serif;box-sizing:border-box} .code-header a{border-top-right-radius:5px;font-size:15px;display:inline-block;cursor:pointer;border-left:1px solid #4E4DED;box-sizing:border-box;padding:6px 13px} .code-header a:hover{background:#f3f3f3;transition:all 0.1s linear} .msg-alert{position:fixed;top:65px;left:20px;background:#333;z-index:1000;color:#fff;font-family:Helvetica,Arial,sans-serif;font-size:15px;padding:8px 12px;border-radius:5px} .language-css, .language-html, .language-javascript {user-select:none;-ms-user-select:none;-moz-user-select:none;-khtml-user-select:none;-webkit-user-select:none} code[class*="language-"],pre[class*="language-"]{font-size:14px;letter-spacing:.02rem;line-height:1.4;color:black;background:none;text-shadow:0 1px white;font-family:Consolas,Monaco,'Fredoka One',cursive;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none} pre[class*="language-"]::-moz-selection,pre[class*="language-"]::-moz-selection,code[class*="language-"]::-moz-selection,code[class*="language-"]::-moz-selection{text-shadow:none;background:#111} pre[class*="language-"]::selection,pre[class*="language-"]::selection,code[class*="language-"]::selection,code[class*="language-"]::selection{text-shadow:none;background:#111} @media print{code[class*="language-"],pre[class*="language-"]{text-shadow:none}} pre[class*="language-"]{padding:.70em;margin:0;overflow:auto;border:1px solid #4E4DED;border-top:0;box-sizing:border-box;border-bottom-left-radius:5px;border-bottom-right-radius:5px;} :not(pre)>code[class*="language-"],pre[class*="language-"]{background:#f8f8f8} :not(pre)>code[class*="language-"]{padding:.1em;border-radius:.3em;white-space:normal} .token.comment,.token.prolog,.token.doctype,.token.cdata{color:slategray} .token.punctuation{color:#999} .namespace{opacity:.7} .token.property,.token.tag,.token.boolean,.token.number,.token.constant,.token.symbol,.token.deleted{color:#905} .token.selector,.token.attr-name,.token.string,.token.char,.token.builtin,.token.inserted{color:#690} .token.operator,.token.entity,.token.url,.language-css .token.string,.style .token.string{color:#9a6e3a} .token.atrule,.token.attr-value,.token.keyword{color:#07a} .token.function,.token.class-name{color:#DD4A68} .token.regex,.token.important,.token.variable{color:#e90} .token.important,.token.bold{font-weight:bold} .token.italic{font-style:italic} .token.entity{cursor:help}
 
- /*========================== @ NAME : Sidebar Container Group @ DOCS : Css @ CLASS : .sidebar-container ==========================*/
-
+ 
 /*=== .card_id ===*/
  .card_id {
   display: inline-block;
@@ -1294,9 +1290,10 @@ background-color: rgb(255, 255, 255);
 
 /*========================== 
 @ NAMA  : Sidebar 
-@ DOCS  : Css
-@ CLASS : .sidebar-container
+@ DOCS  : Css / Blok-A / C
+@ STYLE : .container-sidebar
 ===========================*/
+
 #Followers1 {
   padding: 15px;
   box-sizing: border-box;
@@ -1334,88 +1331,23 @@ border-top:0px solid $(sidebar.separator.color)
 
 
 
-
-
-
-/*========================== @ NAMA : Footer Group @ DOCS : Css @ CLASS : footercup ===========================*/ /*=== 1. Footer Box ===*/
-
- .footer_box {
+/*========================== 
+@ NAMA  : Sidebar 
+@ DOCS  : Css / Blok-A / I
+@ STYLE : .footer_box
+===========================*/
+.footer_box {
   color: #616161;
   padding: 0px 0px;
   margin-bottom: 0px;
   background-color: #CFDBEA;
   border-top: 5px #cecece solid;
   font-family: 'Source Sans Pro', sans-serif;
-  }
+}
 
-/*=== 2.Footer Box > My Paragraph ===*/ 
-.footer_box .my_paragraph .wave-container, .footer_box .my_paragraph .wave-top, .footer_box .my_paragraph .wave-bottom {
-  margin: 0 auto;
-  max-width: 100%;
-  background: #eaeef6;
-  }
-
-.footer_box .my_paragraph .wave-top, .footer_box .my_paragraph .wave-bottom {
-  width: 100%;
-  }
-
-.footer_box .my_paragraph .wave-top > svg, .footer_box .my_paragraph .wave-bottom > svg {
-  display: block;
-  }
-
-.footer_box .my_paragraph .wave-container {
-  z-index: 6;
-  position: relative;
-  }
-
-.footer_box .my_paragraph .wave-top {
-  margin-bottom: -5px;
-  }
-
-.footer_box .my_paragraph .wave-bottom {
-  margin-top: -5px;
-  }
-
-.footer_box .my_paragraph .wave-container, .footer_box .my_paragraph .wave-top, .footer_box .my_paragraph .wave-bottom {
-  position: relative;color: #FFF;
-  text-align:  center;
-  overflow: hidden;
-  }
-
-.footer_box .my_paragraph .wave-container {
-  background: #767EEB;
-  }
-
-.footer_box .my_paragraph .wave-container .deskrip_text {
-  padding: 10px;
-  width: none;
-  font-size: 17px;
-  text-align: center;
-  box-sizing: border-box;
-  }
-
-.footer_box .my_paragraph .wave-container .deskrip_text p span {
-  margin-bottom: 0px;
-  line-height: 0.50em;
-  font-size:23px;color:#fff;
-  }
- 
-.footer_box .my_paragraph .wave-container .deskrip_text p {
-  color: #fff;
-  font-size: 17px;
-  line-height: 1.5em;
-  margin: 7rem 1.25rem 2.5rem 1.25rem; 
-  } 
-
-.footer_box .my_paragraph .wave-container .deskrip_text p i {
-  color: #fff;
-  font-size: 30px;
-  margin-left: 5px;
-  margin-right: 5px;
-  }
-
- /*=== 2.Footer Box > My Social ===*/
- .footer_box .my_social .social_notifikasi {
+/* 1. My Sosial Icon
+---------------------------------------------------*/
+.footer_box .my_social .social_notifikasi {
   width:100%;
   min-width:300px;
   height:auto;
@@ -1424,7 +1356,7 @@ border-top:0px solid $(sidebar.separator.color)
   display: block;
   margin:auto;
   line-height:40px; padding:0px;
-  }
+}
 
 .footer_box .my_social .social_notifikasi .lonceng__ {
   padding:15px 15px 5px;
@@ -1454,7 +1386,9 @@ border-top:0px solid $(sidebar.separator.color)
   max-width: 300px;
   }
 
-/*=== 4.Footer Box > My Links ===*/
+
+/* 2. Container Quotes 
+---------------------------------------------------*/
 .footer_box .my_links {
   width:none;
   }
@@ -1540,13 +1474,27 @@ border-top:0px solid $(sidebar.separator.color)
   font-size: 12px;
   padding: 15px 0;
 }
-.footbox-inner {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 0 20px 0 20px;
+.footbox-inner-element {
+  padding-left: 18%;
+  box-sizing: border-box;
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+@media (max-width: 1080px) {
+  .footbox-inner-element {
+  padding-left: 8%;
+    }
+}
+@media (max-width: 900px) {
+  .footbox-inner-element {
+  padding-left: 10%;
+    }
+}
+@media (max-width: 500px) {
+  .footbox-inner-element {
+  padding-left: 5%;
+    }
 }
 .footbox div {
   margin-bottom: 10px;
