@@ -290,6 +290,12 @@ h3.entry-title a {
   margin-bottom: 30px;
   font-family: 'Source Sans Pro', sans-serif;
   }
+.post-body p a[target=_blank]::after{
+  content: "\f08e";
+  font-family: FontAwesome;
+  margin-left: 3px;
+  position: relative;
+}
 .code code,
 .post-body ol.code li code,
 .post-body ul.code li code,
