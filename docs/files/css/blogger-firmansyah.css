@@ -1098,23 +1098,23 @@ to { opacity: 1; transform: translateY(0);
 
 /* Container Quotes 
 ---------------------------------------------------*/
-.container_quotes blockquote { 
+.post-body blockquote.quotes { 
   padding-right: 0px; 
   margin-left: 30px;
-  } 
+} 
 
-.container_quotes blockquote:before {
+.post-body blockquote.quotes:before {
+  content: "\f10d";
   font-family: FontAwesome; 
   margin-top: -8px; 
-  margin-left: -25px; 
-  color: #ff0000; 
+  margin-left: -30px; 
+  color: dimgray; 
   font-size: 25px; 
-  font-weight: bold; 
+  /*font-weight: bold;*/
   position: absolute; 
-  content: "\f10d";
-  } 
+} 
 
-.container_quotes blockquote p {
+.post-body blockquote.quotes p {
   font-weight: bold;
   margin-bottom: 15px;
   font-size: 20px;
@@ -1122,14 +1122,14 @@ to { opacity: 1; transform: translateY(0);
   color: gray; 
   text-align: left; 
   position: relative;
-  }
+}
 
-.container_quotes blockquote i.creator_name {
+.post-body blockquote.quotes i {
   font-size: 13px;
-  color: #cecece;
+  color: #605c61;
   font-weight: 300;
-  }
- 
+}
+
  /*=== .container_design ===*/
  .container_design .choose { transition: .4s; overflow: hidden; border-radius: 5px; position: relative; text-align: center; } .container_design .choose::before { content: ""; height: 70%; width: 90%; border-radius: 50%; position: absolute; top: -130px; right: 0; left: 0; margin: auto; background: rgba(36, 49, 224, 0.27); } .container_design .choose:hover{ background: #fff; transform: translateY(-10px); box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1); } .container_design .choose:hover span i{ color: white; background: #4E4DED; } .container_design .choose span i::before { margin-left: 0; font-size: 40px; } .container_design .choose span i { height: 85px; width: 85px; line-height: 85px; background: white; border-radius: 50%; color: #767EEB; position: relative; transition: .6s; display: inline-block; } 
 
