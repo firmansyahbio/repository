@@ -795,8 +795,30 @@ cakra {
   background: #4E4DED;
   }
 
+/* Button Blog Pager 
+---------------------------------------------------*/
+ .blog-pager{
+text-align: left;
+}
+.blog-pager a{
+font:$(body.action.font.small);
+text-transform:uppercase;
+  margin: 1rem 0 0 auto;
+  background: navy;
+  color: white;
+  border-radius: 5px;
+  border: 1px #191919 solid;
+  padding: .80rem 1rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  outline: none;
+}
 
- 
+.blog-pager a:hover{
+ background: #000;
+}
 
 /* Text Position 
 ---------------------------------------------------*/
