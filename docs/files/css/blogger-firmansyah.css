@@ -795,9 +795,116 @@ cakra {
   background: #4E4DED;
   }
 
+/* Toc Daftar Isi 
+---------------------------------------------------*/
+.toc {
+  width: 100%;
+  max-width: 400px;
+  display: table;
+  font-size: 18px;
+  border-radius:5px;
+  padding:10px 13px;
+  line-height:1.5em;
+  box-sizing: border-box;
+  border:1px solid #111;
+  background-color: #cecece; 
+}
+  
+.toc h2.name-toc {
+  display:inline;
+  color:#111;
+  font-size: 20px;
+  margin-right:10px
+}
+
+.toc ul {
+  list-style-type:none;
+  color:#111;
+  font-size:16px;
+  list-style-image:none;
+  margin-left:0px;
+  margin-bottom:0px;
+  padding:0px;
+  text-align:left;
+  counter-reset: nested;
+}
+
+.toc ul li {
+  display: block;
+  padding: 2px 0;
+}
+.toc ul li::before {
+  content: counters(nested, ".", decimal) ". ";
+  counter-increment: nested;
+  padding-right: 5px;
+}
+
+.toc a {
+  font-size: 16px;
+  text-decoration:none;
+}
+.toc a:hover {
+  text-decoration:underline;
+}
+
+.toc ul li a {margin-left:.2em}
+.toc ul li ul {margin-left: 8px;}
+.toctogglelabel {
+  cursor:pointer;
+  color: navy;
+}
+:not(:checked) > .toctoggle {
+  display:inline !important; 
+  position:absolute;
+  opacity:0;
+  }
+:not(:checked) > .toctogglespan::before {
+  color:#111;
+  content:'| '
+}
+.toctoggle:not(:checked) + .toctitle .toctogglelabel::after {
+  content:'Tutup';
+  display: inline;
+  }
+.toctoggle:checked + .toctitle .toctogglelabel::after {
+  content:'Lihat';
+}
+:not(:checked) > .toctogglespan::after {
+  color:#111;
+  content:'';
+}
+.toctoggle:checked ~ ul{
+  display:none;
+}
+.toctitle {
+  /*background: #434DED;*/
+  border-radius: 5px;
+  }
+
+div.toc:hover ~ :target::before,
+div.toc:active ~ :target::before {
+  animation: highlight 2s ease;
+}
+@keyframes highlight {
+  0%,30%{
+    transform: scale(0);
+    opacity: 1;
+  }
+  
+  50%{
+    transform: scale(1.6);
+    opacity: .5;
+  }
+  
+  100%{
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
 /* Button Blog Pager 
 ---------------------------------------------------*/
- .blog-pager{
+.blog-pager{
 text-align: left;
 }
 .blog-pager a{
