@@ -2075,28 +2075,22 @@ background-color: rgb(255, 255, 255);
   font-size: 20px;
   margin-left: 10px;
 }
-  
-.locker_code {
-  height: none;
-  display: block;
-}
 
-.locker_code > ul {
-  list-style: none;
-  padding: 0;
-  margin: 0 0 40px 0;
-}
-
-.content-code .button-more-code {
+.post-design .button-more-code {
   display: flex;
   justify-content: center;
+  padding-left: 5px;
+  padding-right: 5px;
+  box-sizing: border-box;
+  background: #111;
+  border-radius: 0px 0px 5px 5px;
 }
 
-.content-code .down,
-.content-code .docs {
+.button-more-code .down,
+.button-more-code .docs {
   padding: 5px;
-  border: 1px solid #111;
-  color: #111;
+  border: 1px solid #fff;
+  color: #fff;
   font-size: 0.7em;
   text-transform: uppercase;
   margin: 10px 0;
@@ -2109,14 +2103,27 @@ background-color: rgb(255, 255, 255);
   letter-spacing: 1px;
 }
 
-.content-code .docs {
+.button-more-code .docs {
   border-left: 0px solid #111;
 }
 
-.content-code .down:hover,
-.content-code .docs:hover {
+.button-more-code .down:hover,
+.button-more-code .docs:hover {
   opacity: 1;
 }
+
+.locker_code {
+  height: none;
+  display: block;
+}
+
+.locker_code > ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 40px 0;
+}
+
+
 
 /*.title {
   font-family: 'Pacifico';
