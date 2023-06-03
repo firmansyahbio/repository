@@ -314,11 +314,11 @@ h3.entry-title a {
 .post-body ol.code li code,
 .post-body ul.code li code,
 .post-body p code {
-  color: #ffffff;
+  color: #ff0000;
   font-size: 14px;
   padding: 2px 2px;
   border-radius: 2px;
-  background:#111111;
+  background:#aeaaea;
   box-sizing: border-box;
   font-family: 'Monospace', sans-serif;
   box-shadow: rgba(0, 0, 0, 0.4) 1px 1px 1px;
