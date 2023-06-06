@@ -421,10 +421,11 @@ h3.entry-title a {
   padding: 1px 5px;
   box-sizing: border-box;
   border: 1px #111 solid;
+  margin-left: 15px;
   border-radius: 5px;
   font-weight: bold;
   background: #aeaaea;
-  text-transforms: uppercase;
+  text-transform: uppercase;
   z-index: 700;
 }
 
