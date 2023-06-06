@@ -810,6 +810,68 @@ cakra {
   background: #4E4DED;
   }
 
+
+/* Menu Info icon slip 
+---------------------------------------------------*/
+.menuinfo {
+  top:0;
+  left:0; 
+  bottom:0;
+  display:none;
+  margin:auto;
+  height:70%; 
+  width: 90%;
+  z-index: 200;
+  position:fixed;
+  margin-top: 60px;
+  max-width: 700px;
+  background: #fff;
+  border-radius:5px;
+  border:1px solid #4E4DED;
+  flex-direction: column;
+  top: 0; left: 0; right: 0;
+  justify-content: center;
+}
+
+.menuinfo .closeinfo::before {
+  content:"\f00d";
+  font-family: FontAwesome;
+  font-size: 15px;
+  position: relative;
+  top:  0px;
+}
+
+.menuinfo .closeinfo {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  border-radius: 50%;
+  background: #fff;
+  padding: 1px;
+  border: 2px #4E4DED solid;
+  margin-top: 5px;
+  margin-right: 5px;
+  color: #111;
+  font-weight: bold;
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  box-sizing: border-box;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.menuinfo .postinfo {
+  margin: 5px;
+  width: none;
+  height: 100%;
+  padding: 5px;
+  overflow: auto;
+  border-radius: 5px;
+  box-sizing: border-box;
+  border: 1px solid rgba(36, 49, 224, 0.27);
+  background-color: rgb(255, 255, 255);
+}
+
 /* Toc Daftar Isi 
 ---------------------------------------------------*/
 .toc {
