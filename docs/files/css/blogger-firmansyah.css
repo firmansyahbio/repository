@@ -788,27 +788,81 @@ cakra {
   color: white!important;
   }
 
-/*=== .contact_box_id ===*/
-.contact_box_id {
-  display: flex;
-  padding: 8px;
-  }
+/* Label Post Artikel Atas dan Bawah
+---------------------------------------------------*/
+.post-footer .post-footer-line.post-footer-line-1 .byline.post-labels a:hover {
+  box-shadow: 5px 1px 20px 1px #ddd;
+  transform: scale(0.96);
+}
 
-.contact_box_id a {
-  flex: 1 1 30%;
-  padding: 5px;
-  margin: 5px;
+.post-footer .post-footer-line.post-footer-line-1 {
+  max-width: 400px;
+}
+
+.post-footer .post-footer-line.post-footer-line-1 .byline.post-labels a{
+  color: #fff;
   border-radius: 5px;
-  background: #767EEB;
-  color: #FFF;
+  display:inline-block;
+  box-sizing: border-box;
+  padding: 7px 12px;
   text-align: center;
-  font-size: 15px;
-  font-weight: bold;
-  }
+  margin: 5px 5px 5px 0px;
+  background: #191919;
+  letter-spacing: 2px;
+  border: 1px #000 solid;
+  transition: 0.3s;
+}
 
-.contact_box_id a:hover {
-  background: #4E4DED;
-  }
+.post-footer .post-footer-line.post-footer-line-1 .byline.post-labels span.byline-label {
+  color: #111;
+  font-size: 20px;
+  position: absolute;
+  margin-top: -40px;
+}
+
+.post-footer .post-footer-line.post-footer-line-1 .byline.post-labels span.byline-label::before {
+  content: "\f02b";
+  font-family: FontAwesome;
+  margin-right: 5px;
+  color: #ff0000;
+}
+
+.post-sidebar .post-sidebar-item.post-sidebar-labels div {
+  color: #111;
+  font-size: 20px;
+}
+
+.post-sidebar .post-sidebar-item.post-sidebar-labels div::before {
+  content: "\f02b";
+  font-family: FontAwesome;
+  margin-right: 10px;
+  color: #ff0000;
+}
+
+.post-sidebar .post-sidebar-item.post-sidebar-labels ul li {
+  margin-top: 20px;
+}
+
+.post-sidebar .post-sidebar-item.post-sidebar-labels ul li {
+  transition: 0.3s;
+  display:inline-block;
+}
+
+.post-sidebar .post-sidebar-item.post-sidebar-labels ul li a {
+  color: #fff;
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding: 7px 12px;
+  text-align: center;
+  background: #191919;
+  letter-spacing: 2px;
+  border: 1px #000 solid;
+}
+
+.post-sidebar .post-sidebar-item.post-sidebar-labels ul li:hover {
+  box-shadow: 5px 1px 20px 1px #ddd;
+  transform: scale(0.96);
+}
 
 
 /* Menu Info icon slip 
