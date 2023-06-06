@@ -915,6 +915,40 @@ div.toc:active ~ :target::before {
   }
 }
 
+/* Menu JS, CSS, HTML Overview 
+---------------------------------------------------*/
+.list-overview .list-ov a:visited::before {
+  color: #fff;
+  background: #4E4DED;
+  border-radius: 5px;
+  border: 1px solid #fff;
+}
+.list-overview .list-ov a::before {
+  margin-top: 0px;
+  margin-left: -35px;
+  padding: 2px;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  border-radius: 50%;
+  text-align: center;
+  position: absolute;
+  color: #f9fafb;
+  background: #f9fafb;
+  border: 1px solid #4E4DED;
+  content: attr(nike-alt);
+}
+.list-overview .list-ov a {
+   display: block;
+   padding: 5px 5px 5px 40px;
+   margin-bottom: 5px;
+   border-radius: 5px;
+   color: #fff;
+   font-size: 16px;
+   box-sizing: border-box;
+   background: deeppink;
+ }
+
 /* Button Blog Pager 
 ---------------------------------------------------*/
 .blog-pager{
