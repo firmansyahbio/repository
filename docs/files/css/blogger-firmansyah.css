@@ -410,16 +410,21 @@ h3.entry-title a {
 
 #demolive {
   padding: 0;
+  margin-top: 20px;
+  margin-bottom: 10px;
   font-size: 16px;
   height: 100%;
   border-radius:5px;
 }
-#demolive legend {
-  margin-top: -15px;
-  background: #EAEEF6;
-  position: absolute;
-  margin-left: 10px;
-  color: #000000;
+.post-body fieldset#demolive legend {
+  padding: 1px 5px;
+  box-sizing: border-box;
+  border: 1px #111 solid;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+  background: #aeaaea;
+  z-index: 700;
 }
 
 #demolive section[hidden=hidden]{
