@@ -926,6 +926,168 @@ cakra {
   background-color: rgb(255, 255, 255);
 }
 
+
+
+/* Button Share Dialog 
+---------------------------------------------------*/
+.share-dialog {
+  position: fixed;
+  top: 10%;
+  left: 10%;
+  right: 10%;
+  transform: translate(0px, 0px);
+}  
+.share-dialog {
+  display: none;
+  width: 100%;
+  max-width: 300px;
+  box-shadow: 0 8px 16px rgba(0,0,0,.15);
+  z-index: -1;
+  border: 2px solid #ddd;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-sizing: border-box;
+} 
+.share-dialog.is-open {
+  display: block;
+  z-index: 9999;
+}
+.title_bar {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.title_bar svg.close-button {
+  height: 30px;
+  width: 30px;
+} 
+.title_bar h3 {
+  color: navy;
+  margin-left: 10px;
+  top: -14px;
+  position: relative;
+  line-height: 1.0;
+  font-size: 25px;
+  text-align: center;
+  font-family: 'Encode Sans', sans-serif;
+}
+.share_deskripsi_error h3 {
+  color: #767EEB;
+  font-size: 25px;
+  text-align: center;
+  font-family: 'Encode Sans', sans-serif;
+  }
+  .share-dialog .share_deskripsi_error {
+    width: none;
+    height: none;
+    text-align: center;
+    background: #fff;
+  } 
+.share-dialog .share_deskripsi_error p {
+  font-size: 12px;
+  color: #000;
+  font-family: 'Encode Sans', sans-serif;
+  }
+.share-dialog .share_deskripsi_error a{
+    color:pink;
+  font-size: 15px;
+  text-transform:uppercase;
+  font-family: 'Encode Sans', sans-serif;
+} 
+.share-dialog .link_url {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #eee;
+  box-sizing: border-box;
+} 
+.share-dialog .copy_url {
+    height: 40px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-family: 'Encode Sans', sans-serif;
+}
+.share-dialog .copy_url span {
+  font-size: 15px;
+}
+.share-dialog .link_url a.sbtn {
+  display: block;
+  width: 55px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  letter-spacing: 2px;
+  font-size: 13px;
+  text-decoration: none;
+  text-align: center;
+  background: #ddd;
+  border: 1px #111 solid;
+  transition: all 0.1s ease-in;
+  font-family: 'Encode Sans', sans-serif;
+} 
+.share-dialog .link_url a.sbtn:hover {
+  color: #FFF;
+  background: #4E4DED;
+  border: 1px solid currentColor;
+}
+.link_url .copyinfo {
+  display: none;
+}
+.share-dialog a.sbtn:focus ~ .copyinfo,
+.share-dialog a.sbtn:active ~ .copyinfo{
+  width: 100px;
+  height: 30px;
+  text-align: center;
+	padding: 5px;
+	background: #333;
+	position: absolute;
+    margin-right: -150px;
+	margin-top: -100px;
+	display: block;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	text-shadow: 0 1px rgba(0,0,0,1);
+	color:#fff;
+	font-weight: normal;
+}
+.copyinfo:after{
+	display: block;
+	content:"";
+	position: absolute;
+	width: 0; 
+	height: 0;
+	bottom:-8px;
+	left: 72px;
+	border-top: 10px solid #333;
+	border-left: 8px solid transparent; 
+	border-right: 8px solid transparent; 
+}
+button.share-button {
+  background: navy;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  padding: 5px 10px;
+  box-sizing: border-box; 
+  border-radius: 5px;
+  border: 1px #111 solid;
+}
+button.share-button i {
+  font-size: 18px;
+}
+
+
+
+
 /* Toc Daftar Isi 
 ---------------------------------------------------*/
 .toc {
@@ -1849,8 +2011,6 @@ top: 0%;
 left: 0%;
 transform: translate(0px, 0px);
 }
-.share-dialog {display: none;width: 100%;max-width: 100%;box-shadow: 0 8px 16px rgba(0,0,0,.15);z-index: -1;border: 0px solid #ddd;padding: 15px;border-radius: 5px;background-color: #fff;box-sizing: border-box;} .share-dialog.is-open {display: block;z-index: 9999;} .share-dialog svg.close-button {height: 30px;width: 30px;} .share-dialog h3.dialog_title {color: #767EEB;font-size: 25px;text-align: center;font-family: 'Encode Sans', sans-serif;} .share-dialog .share_deskripsi_error {width: none;height: none;text-align: center;background: #fff;} .share-dialog .share_deskripsi_error p{font-size: 12px;color: #000;font-family: 'Encode Sans', sans-serif;} .share-dialog .share_deskripsi_error a{color:pink;font-size: 15px; text-transform:uppercase;font-family: 'Encode Sans', sans-serif;} .share-dialog .link_url {display: block;font-size: 18px;width: 100%;justify-content: center;align-items: center;padding: 5px 10px;border-radius: 5px;background-color: #eee;box-sizing: border-box;} .share-dialog .copy_url {overflow: hidden;text-overflow: ellipsis;white-space: nowrap;font-family: 'Encode Sans', sans-serif;} .share-dialog a.btn {padding: 5px 10px;border: none;border-radius: 5px;font-size: 12px;text-decoration: none;font-weight: bold;border: 1px #111 solid;transition: all 0.1s ease-in;font-family: 'Encode Sans', sans-serif;} .share-dialog a.btn:hover {color: #FFF;background: #4E4DED;border: 1px solid currentColor;}
-
 
 
  /* Nave Button  
