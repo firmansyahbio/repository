@@ -28,22 +28,21 @@ body {
   color: #000; 
   width: none;
   height:20px;
-  font-size: 13px;
   padding: 6px;
   font-weight:bold;
   display:block;
-  font-size: 15px;
+  font-size: 13px;
   margin-left:12px;
 }
 .sidebar-container .WebJam::before {
   content: "\f017";
   font-family: FontAwesome;
-  font-size: 15px;
+  font-size: 13px;
   margin-right: 5px;
 }
 .sidebar-container .WebJam a {
  color: #000;
- font-size: 15px;
+ font-size: 13px;
 }
 
 /* Tag hr didalam .sidebar-container
