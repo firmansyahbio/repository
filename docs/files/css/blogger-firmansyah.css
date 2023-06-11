@@ -1727,7 +1727,7 @@ background-color: rgb(255, 255, 255);
 }
 .post-body pre code.language-html::before,
 .post-body pre code.language-css::before,
-.post-body pre code.language-javascript::before {
+.post-body pre code.language-js::before {
   z-index: 5;
   color: #111;
   margin-left: 0px;
