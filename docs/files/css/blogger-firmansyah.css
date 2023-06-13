@@ -553,10 +553,13 @@ to { opacity: 1; transform: translateY(0);
 }
 
 /*========================== 
-@ NAMA  : Sidebar 
+@ NAMA  : ID Khusus 
 @ DOCS  : Css / Blok-A / C
-@ STYLE : .container-sidebar
+@ STYLE : Id="*"
 ===========================*/
+
+/* Membelokir Text untuk di copy 
+---------------------------------------------------*/
 #nocopy { 
   user-select:none; 
   -moz-user-select:none;
@@ -565,14 +568,10 @@ to { opacity: 1; transform: translateY(0);
   -webkit-user-select:none;
  }
 
-cakra {
-  z-index: 2;
-  user-select:none; 
-  -moz-user-select:none;
-  -ms-user-select:none;
-  -khtml-user-select:none;     
-  -webkit-user-select:none;
- }
+/* Menyembuhkan Sebuah Elemen dari tampilan browser.
+---------------------------------------------------*/
+#display-none {display:none;}
+
 
 /*========================== 
 @ NAMA  : Drcoration 
