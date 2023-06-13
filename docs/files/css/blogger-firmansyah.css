@@ -1070,19 +1070,7 @@ cakra {
 	border-left: 8px solid transparent; 
 	border-right: 8px solid transparent; 
 }
-button.share-button {
-  background: navy;
-  color: #fff;
-  width: 40px;
-  height: 40px;
-  padding: 5px 10px;
-  box-sizing: border-box; 
-  border-radius: 5px;
-  border: 1px #111 solid;
-}
-button.share-button i {
-  font-size: 18px;
-}
+
 
 
 
