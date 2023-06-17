@@ -10,12 +10,21 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+
+
+
 /*========================== 
 @ NAMA  : Header 
 @ DOCS  : Css / Blok-A / B
 @ STYLE : header
 ===========================*/
 
+
+/* Header background 
+---------------------------------------------------*/
+header.centered-top-container {
+  background: #CFDBEA;
+}
 
 
 
