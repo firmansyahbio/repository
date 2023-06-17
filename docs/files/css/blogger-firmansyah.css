@@ -1244,6 +1244,43 @@ div.toc:active ~ :target::before {
    background: deeppink;
  }
 
+
+
+/* Popular Posts 1
+---------------------------------------------------*/
+#PopularPosts1 {
+  border-top: 2px #ccc solid;
+  display: none;
+}
+#PopularPosts1 h3.title {
+  font-size: 25px;
+  display: block;
+  color: #111;
+}
+#PopularPosts1 h3.title::before {
+content: "\f02d" ;
+color: navy;
+font-family: FontAwesome;
+}
+.widget-content div[role=feed] {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 5px;
+  margin-bottom: 0px;
+}
+.widget-content div[role=feed] article.post {
+  display: inline-block;
+}
+.widget-content div[role=feed] article.post img {
+  border-radius: 5px;
+}
+@media(max-width: 500px) {
+.widget-content div[role=feed] {
+    grid-template-columns: 1fr;
+  }
+}
+
+
 /* Button Blog Pager 
 ---------------------------------------------------*/
 .blog-pager{
