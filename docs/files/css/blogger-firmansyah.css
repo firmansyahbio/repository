@@ -1249,22 +1249,35 @@ div.toc:active ~ :target::before {
 .blog-pager{
   text-align: left;
 }
-
 .blog-pager a{
   text-transform:uppercase;
   margin: 1rem 0 0 auto;
-  background: navy;
-  color: white;
+  width: none;
+  height: none;
+  max-width: 400px;
+  color: #111;
+  text-align: center;
   border-radius: 5px;
-  border: 1px #191919 solid;
-  padding: .70rem .90rem;
-  font-weight: bold;
-  letter-spacing: 2px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
   cursor: pointer;
   transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
   outline: none;
 }
 
+.blog-pager a {
+  font-size: 1.50em;
+  border: none;
+  color: #111;
+  font-weight: bold;
+}
 .blog-pager a.blog-pager-older-link {
   font-size: 17px;
 }
