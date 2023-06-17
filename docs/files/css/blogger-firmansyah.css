@@ -2123,12 +2123,22 @@ border-top:0px solid $(sidebar.separator.color)
   font-weight: bold;
   line-height: .70em;
   }
-
-.footer_box .my_links .links_inner ul li h3 i {
+.my_links .links_inner ul li h3::before {
   margin-right: 5px;
-  color: #767EEB;
+  font-family: FontAwesome;
+}
+.my_links .links_inner ul.link1 li h3::before {
+  content:"\f02d";
   }
-
+.my_links .links_inner ul.link2 li h3::before {
+  content:"\f549";
+  }
+.my_links .links_inner ul.link3 li h3::before {
+  content:"\f542";
+  }
+.my_links .links_inner ul.link4 li h3::before {
+  content:"\f0ce";
+  }
 .footer_box .my_links .links_inner ul li span.diverti {
   position:relative;
   font-weight:bold;
