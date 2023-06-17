@@ -1654,8 +1654,94 @@ div.toc:active ~ :target::before {
   box-shadow: 5px 1px 20px 1px #ddd;
 }
   
+.four-btn .info {
+  display: none;
+  width: 100px;
+  height: 20px;
+  text-align: center;
+  padding-top: 20px;
+  background: #333;
+  position: absolute;
+  -webkit-border-radius:5px;
+  border-radius:5px;
+  -moz-border-radius:5px;
+  text-shadow: 0 1px rgba(0,0,0,1);
+  color:#fff;
+  font-weight: normal;
+  margin-top: -45px;
+}
+.four-btn button:hover ~ .info{
+  display: block;
+}
+.four-btn button.one:hover ~ .info{
+  left: 5%;
+}
+.four-btn button.two:hover ~ .info{
+  left: 30%;
+}
+.four-btn button.three:hover ~ .info{
+  left: 55%;
+}
+.four-btn button.four:hover ~ .info{
+  left: 80%;
+}
+@media (max-width: 900px) {
+.four-btn button.one:hover ~ .info{
+  left: 4%;
+}
+.four-btn button.two:hover ~ .info{
+  left: 28%;
+}
+.four-btn button.three:hover ~ .info{
+  left: 53%;
+}
+.four-btn button.four:hover ~ .info{
+  left: 78%;
+}
+}
+@media (max-width: 500px) {
+.four-btn button.one:hover ~ .info{
+  left: -4%;
+}
+.four-btn button.two:hover ~ .info{
+  left: 21%;
+}
+.four-btn button.three:hover ~ .info{
+  left: 45%;
+}
+.four-btn button.four:hover ~ .info{
+  left: 70%;
+}
+}
 
-
+.four-btn .info:after{
+  display: block;
+  content:"";
+  position: absolute;
+  width: 0;
+  height: 0;
+  bottom:-8px;
+  left: 42px;
+  border-top: 10px solid #333;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent; 
+}
+.four-btn .info:before {
+  position: relative;
+  top: -12px;
+}
+.four-btn button.one:hover ~ .info:before{
+  content: "Share";
+  }
+.four-btn button.two:hover ~ .info:before{
+  content: "Comment";
+  }
+.four-btn button.three:hover ~ .info:before{
+  content: "Link";
+  }
+.four-btn button.four:hover ~ .info:before{
+  content: "Row";
+  }
 
 
 
