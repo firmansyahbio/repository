@@ -981,107 +981,101 @@ to { opacity: 1; transform: translateY(0);
 
 /* Button Share Dialog 
 ---------------------------------------------------*/
+.share-dialog {
+  top: 20%;
+  left: 10%;
+  right: 10%;
+  z-index: -1;
+  display: none;
+  width: 100%;
+  padding: 15px;
+  position: fixed;
+  max-width: 300px;
+  border-radius: 5px;
+  border: 1px solid #111;
+  background-color: #fff;
+  box-sizing: border-box;
+  transform: translate(0px, 0px);
+  box-shadow: 0 8px 16px rgba(0,0,0,.15);
+}
 
-.share_deskripsi_error h3 {
+.share-dialog.is-open {
+  display: block;
+  z-index: 9999;
+}
+
+.share-dialog > svg.close-button {
+  height: 30px;
+  width: 30px;
+}
+
+ .share-dialog #share-deskripsi {
+  width: none;
+  height: none;
+  text-align: center;
+  background: #fff;
+  font-family: 'Encode Sans Pro', sans-serif;
+} 
+
+.share-dialog #share-deskripsi h3 {
   color: #767EEB;
   font-size: 25px;
-  text-align: center;
-  font-family: 'Encode Sans', sans-serif;
-  }
-  .share-dialog .share_deskripsi_error {
-    width: none;
-    height: none;
-    text-align: center;
-    background: #fff;
-  } 
-.share-dialog .share_deskripsi_error p {
+}
+ 
+.share-dialog #share-deskripsi p {
   font-size: 12px;
-  color: #000;
-  font-family: 'Encode Sans', sans-serif;
-  }
-.share-dialog .share_deskripsi_error a{
-    color:pink;
-  font-size: 15px;
-  text-transform:uppercase;
-  font-family: 'Encode Sans', sans-serif;
-} 
-.share-dialog .link_url {
-  display: flex;
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-  padding: 5px 10px;
-  border-radius: 5px;
-  background-color: #eee;
-  box-sizing: border-box;
-} 
-.share-dialog .copy_url {
-    height: 40px;
-    padding: 5px 10px;
-    box-sizing: border-box;
-    width: 100%;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    font-family: 'Encode Sans', sans-serif;
-}
-.share-dialog .copy_url span {
-  font-size: 15px;
-}
-.share-dialog .link_url a.sbtn {
-  display: block;
-  width: 55px;
-  padding: 5px 10px;
-  border: none;
-  border-radius: 5px;
-  letter-spacing: 2px;
-  font-size: 13px;
-  text-decoration: none;
-  text-align: center;
-  background: #ddd;
-  border: 1px #111 solid;
-  transition: all 0.1s ease-in;
-  font-family: 'Encode Sans', sans-serif;
-} 
-.share-dialog .link_url a.sbtn:hover {
-  color: #FFF;
-  background: #4E4DED;
-  border: 1px solid currentColor;
-}
-.link_url .copyinfo {
-  display: none;
-}
-.share-dialog a.sbtn:focus ~ .copyinfo,
-.share-dialog a.sbtn:active ~ .copyinfo{
-  width: 100px;
-  height: 30px;
-  text-align: center;
-	padding: 5px;
-	background: #333;
-	position: absolute;
-    margin-right: -150px;
-	margin-top: -100px;
-	display: block;
-	-webkit-border-radius:5px;
-	border-radius:5px;
-	-moz-border-radius:5px;
-	text-shadow: 0 1px rgba(0,0,0,1);
-	color:#fff;
-	font-weight: normal;
-}
-.copyinfo:after{
-	display: block;
-	content:"";
-	position: absolute;
-	width: 0; 
-	height: 0;
-	bottom:-8px;
-	left: 72px;
-	border-top: 10px solid #333;
-	border-left: 8px solid transparent; 
-	border-right: 8px solid transparent; 
+  color: #111;
 }
 
+.share-dialog div.click-copy {
+  display: inline-block;
+  padding: 8px 5px;
+  font-size: 15px;
+  margin: 3px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  box-sizing: border-box;
+  user-select:none; 
+  -moz-user-select:none;
+  -ms-user-select:none;
+  -khtml-user-select:none;     
+  -webkit-user-select:none;
+  width: 100%;
+  outline: none;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 400;
+  border: none;
+  text-align: left;
+  position: relative;
+  border-radius: 5px;
+  background:linear-gradient(180deg,#f1f3f4 0%,#f1f3f4 100%) #f1f3f4;color:#637381;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.share-dialog div.click-copy:hover {
+  background-color: #1553b9;
+}
+
+.share-dialog div.click-copy:active {
+  background-color: #1553b9;
+  box-shadow: 5px 1px 20px 1px #ddd;
+  transform: scale(0.96);
+  -webkit-transition: all 0.3s;
+}
+
+.share-dialog div.click-copy:visited {
+  color: #111;
+  text-decoration: none;
+}
+
+.share-dialog div.click-copy:link {
+  color: #fff;
+  text-decoration: none;
+  outline: none;
+  -webkit-transition: all 0.3s;
+}
 
 
 
