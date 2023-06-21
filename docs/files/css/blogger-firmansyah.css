@@ -1673,7 +1673,22 @@ font-family: FontAwesome;
   transform: scale(0.96);
   box-shadow: 5px 1px 20px 1px #ddd;
 }
-  
+.four-btn button.one::before {
+  content:"\f064";
+  font-family: FontAwesome;
+  }
+.four-btn button.two::before {
+  content:"\f075";
+  font-family: FontAwesome;
+  }
+.four-btn button.three::before {
+  content:"\f187";
+  font-family: FontAwesome;
+  }
+.four-btn button.four::before {
+  content:"\f121";
+  font-family: FontAwesome;
+}
 .four-btn .info {
   display: none;
   width: 100px;
