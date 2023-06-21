@@ -1775,7 +1775,7 @@ font-family: FontAwesome;
   content: "Link";
   }
 .four-btn button.four:hover ~ .info:before{
-  content: "Row";
+  content: "Smart";
   }
 
 
