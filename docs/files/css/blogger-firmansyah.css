@@ -1105,7 +1105,7 @@ to { opacity: 1; transform: translateY(0);
   left: 5%;
   }
 }
-comment-dialog > .title-content {
+.comment-dialog > .title-content {
   width: 100%;
   padding: 5px 10px;
   border-bottom: 1px #ddd solid;
