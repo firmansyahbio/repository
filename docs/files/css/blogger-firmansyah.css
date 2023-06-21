@@ -979,7 +979,7 @@ to { opacity: 1; transform: translateY(0);
 
 
 
-/* Button Share Dialog 
+/* Share Dialog 
 ---------------------------------------------------*/
 .share-dialog {
   top: 20%;
@@ -1077,6 +1077,119 @@ to { opacity: 1; transform: translateY(0);
   -webkit-transition: all 0.3s;
 }
 
+
+
+
+
+/* Comment Dialog 
+---------------------------------------------------*/
+.comment-dialog {
+  top:0;
+  left: 20%; 
+  bottom:0;
+  display:none;
+  margin:auto;
+  height: 80%; 
+  width: 90%;
+  z-index: 200;
+  position:fixed;
+  margin-top: 60px;
+  max-width: 700px;
+  max-height: 600px;
+  background: #fff;
+  border-radius:5px;
+  border:1px solid #ddd;
+}
+@media (max-width: 900px) {
+  .comment-dialog {
+  left: 5%;
+  }
+}
+comment-dialog > .title-content {
+  width: 100%;
+  padding: 5px 10px;
+  border-bottom: 1px #ddd solid;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
+.comment-dialog > .title-content span.name {
+  font-weight: bold;
+  font-size: 25px;
+}
+.comment-dialog > .title-content span.close {
+  width: 30px;
+  height: 30px;
+  background: #ddd;
+  margin-top: 7px;
+  padding: 2px;
+  text-align: center;
+  box-sizing: border-box;
+  border: 0px #111 solid;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 15px;
+}
+.comment-dialog > .title-content span.close::before {
+  content:"X";
+}
+
+.ViewPro {
+  width: none;
+  height: 85%;
+  display: block;
+  padding: 5px;
+  overflow: scroll;
+  z-index: 5;
+  box-sizing: border-box;
+}
+.ViewComment {
+  width: none;
+  height: 100%;
+  display: block;
+  padding: 0;
+  box-sizing: border-box;
+}
+.comment-dialog > .main-comment {
+  height: auto;
+  display: block;
+  text-align: center;
+  }
+.comment-dialog > .main-comment span span i{
+  color: red;
+  font-size: 12px;
+  margin-right: 7px;
+}
+.comment-dialog > .main-comment span a{
+  color: navy;
+}
+.comment-dialog > .main-comment span span.icon-anime::before {
+  content: "";
+  height: 13px;
+  width: 13px;
+  position: absolute;
+  margin-top: 5px;
+  margin-left: -1px;
+  background: #ff0101;
+  border-radius: 50%;
+  animation: animation-button-comment 1.5s infinite;
+}
+
+
+@keyframes animation-button-comment{
+0%,30%{
+    transform: scale(0);
+    opacity: 1;
+  }
+50%{
+    transform: scale(1.6);
+    opacity: .5;
+  }
+100%{
+    transform: scale(2);
+    opacity: 0;
+  }
+}
 
 
 
