@@ -2239,13 +2239,6 @@ border-top:0px solid $(sidebar.separator.color)
 .footer_svg .by_frasa p a {
   color: white;
 }
-/*=== 1.Share > Share Dialog ===*/
- .share-dialog {
-position: fixed;
-top: 0%;
-left: 0%;
-transform: translate(0px, 0px);
-}
 
 
  /* Nave Button  
