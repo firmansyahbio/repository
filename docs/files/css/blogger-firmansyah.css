@@ -1301,8 +1301,16 @@ div.toc:active ~ :target::before {
   }
 }
 
+
+
 /* Menu JS, CSS, HTML Overview 
 ---------------------------------------------------*/
+.list-overview {
+  padding: 7px 5px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background: rgba(36, 49, 224, 0.27);
+}
 .list-overview .list-ov a:visited::before {
   color: #fff;
   background: #4E4DED;
@@ -1333,7 +1341,7 @@ div.toc:active ~ :target::before {
    font-size: 16px;
    box-sizing: border-box;
    background: deeppink;
- }
+}
 
 
 
