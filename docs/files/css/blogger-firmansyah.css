@@ -454,19 +454,20 @@ h3.entry-title a {
   border-radius:5px;
   border: 1px #111 solid;
 }
-.post-body fieldset#demolive legend {
+.post-body fieldset#demolive > legend {
   padding: 1px 5px;
   box-sizing: border-box;
   border: 1px #111 solid;
   margin-left: 15px;
   border-radius: 5px;
   font-weight: bold;
+  color: #fff;
   background: #aeaaea;
   text-transform: uppercase;
   z-index: 700;
 }
 
-#demolive section[hidden=hidden]{
+#demolive > section[hidden=hidden]{
   --x: 0;
   --y: 0;
   --z: 0;
