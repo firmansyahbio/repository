@@ -617,26 +617,66 @@ to { opacity: 1; transform: translateY(0);
 @ DOCS  : Css / Blok-A / F
 @ STYLE : body
 ===========================*/
-
-.post-body .btn { 
+.post-body > .flexa {
+  height: auto;
+  display: flex;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  position: relative;
+}
+.post-body > .flexa.left {
+  justify-content: flex-stars;
+}
+.post-body > .flexa.right {
+  justify-content: flex-end;
+}
+.post-body > .flexa.center {
+  justify-content: center;
+}
+ .post-body .flexa > a.btn {
+  font-size: 16px;
+  text-align: center;
   font-weight: bold;
-  padding: 10px 25px;
+  padding: 10px 15px;
+  font-family: 'Source Sans Pro', sans-serif;
   }
-
-.post-body .btn {
+.post-body .flexa > a.btn.df {
+  background: #767EEB;
+}
+.post-body .flexa a.btn > i.left{
+  margin-right: 5px;
+}
+.post-body .flexa a.btn > i.right{
+  margin-left: 5px;
+}
+ .post-body .flexa .df-btn {
   background: #767EEB;
   border: none;
   border-radius: 5px;
-  color: white;
+  color: #FFF;
   position: relative;
-  font-family: 'Source Sans Pro', sans-serif;
+  z-index: 1;
   }
 
-.post-body .btn:hover {
-  transition: .5s;
-  background: #434DED;
+ .post .post-body .flexa .df-btn::after {
+  content: "";
+  height: 0;
+  width: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #111;
+  border-radius: 5px;
+  transition: .5s;z-index: -1;
+  }
+.post-body .flexa .df-btn:hover::after {
+  width: 100%;
+  height: 100%;
+  }
+.post-body .flexa .df-btn:hover {
   color: white!important;
   }
+
 
 /*========================== 
 @ NAMA  : Properti 
