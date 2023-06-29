@@ -777,7 +777,7 @@ to { opacity: 1; transform: translateY(0);
 }
 
 .post-footer .post-footer-line.post-footer-line-1 .byline.post-labels span.byline-label::before {
-  content: "\f02b";
+  content: "\f02c";
   font-family: FontAwesome;
   margin-right: 5px;
   color: #ff0000;
@@ -789,7 +789,7 @@ to { opacity: 1; transform: translateY(0);
 }
 
 .post-sidebar .post-sidebar-item.post-sidebar-labels div::before {
-  content: "\f02b";
+  content: "\f02c";
   font-family: FontAwesome;
   margin-right: 10px;
   color: #ff0000;
