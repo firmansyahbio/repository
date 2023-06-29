@@ -782,55 +782,9 @@ to { opacity: 1; transform: translateY(0);
   box-sizing: border-box;
   }
 
-/* Div .click-more
----------------------------------------------------*/
- .post-body .click-more {
-  display: flex;
-  }
-
- .post-body .click-more .btn-more { 
-  width: 100%;
-  text-align: center;
-  font-weight: bold;
-  padding: 10px 25px;
-  font-family: 'Source Sans Pro', sans-serif;
-  }
-
- .post-body .click-more .default-btn {
-  background: #767EEB;
-  border: none;
-  border-radius: 5px;
-  color: #FFF;
-  position: relative;
-  z-index: 1;
-  }
-
- .post .post-body .click-more .default-btn::after {
-  content: "";
-  height: 0;
-  width: 0;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  background: #434DED;
-  border-radius: 5px;
-  transition: .5s;z-index: -1;
-  }
-
-.post-body .click-more .default-btn:hover::after {
-  width: 100%;
-  height: 100%;
-  }
-.post-body .click-more .default-btn:hover {
-  color: white!important;
-  }
 
 /* Label Post Artikel Atas dan Bawah
 ---------------------------------------------------*/
-
-
-
-
 
 .post-sidebar .post-sidebar-item.post-sidebar-labels ul li a {
   color: #fff;
@@ -1394,7 +1348,7 @@ font-family: FontAwesome;
   color: #111;
   text-align: center;
   border-radius: 5px;
-  padding: 10px 25px;
+  padding: 15px 30px;
   font-family: 'Lato', sans-serif;
   font-weight: 500;
   background: transparent;
@@ -1577,93 +1531,84 @@ font-family: FontAwesome;
 @ STYLE : .container-sidebar
 ===========================*/
 
-.post-body .prev-and-next {
+/* Button More Prev Next
+---------------------------------------------------*/
+.post-body > .prev-next {
   height: 50px;
-  display: block;
+  display: flex;
+  justify-content: space-between;
   position: relative;
-  } 
-.post-body .prev-and-next a svg {
-  width: 20px;
-  height: 20px;
-  }
-.post-body .prev-and-next a.klik-next {
-  position: absolute;
+} 
+.post-body > .prev-next a {
+  font-size: 19px;
+  color: white;
+  margin-top: 8px;
+  border-radius: 5px;
+  background-color: #4E4DED;
+  transition: 500ms;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.post-body > .prev-next a:hover {
+  background-color: #767EEB;
+}
+.post-body .prev-next > a.more {
+  position: relative;
+  bottom: 3px;
+  left: 2%;
+  right: 2%;
+  width: 96%;
+  height: 40px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.post-body .prev-next a.next {
+  position: relative;
   bottom: 3px;
   right: 5px;
   width: 40%;
   height: 40px;
-  font-size: 16px;
   cursor: pointer;
-  margin-top: 10px;
-  background: none;
-  border: none;
   display: flex;
   align-items: center;
   justify-content: center;
-  }
-
-.post-body .prev-and-next a.klik-next {
-  color: white;
-  border-radius: 5px;
-  background: #767EEB;
-  font-family: 'Source Sans Pro', sans-serif;
-  }
-
-.post-body .prev-and-next a.klik-next:hover {
-  background: #4E4DED;
-  }
-
-.post-body .prev-and-next a.klik-next svg {
+}
+.post-body .prev-next a.next::after {
+  content:"\f061";
+  font-family: FontAwesome;
   position: absolute;
   margin-left: 50px;
-  fill: transparent;
+  color: transparent;
   transition: 500ms;
-  }
-.post-body .prev-and-next a.klik-next span {
-  transition: 500ms;
-  }
-
-.post-body .prev-and-next a.klik-next:hover svg {
+}
+.post-body .prev-next > a.next:hover::after{
   margin-left: 85px;
-  fill: white;
-  }
-.post-body .prev-and-next a.klik-prev {
-  position: absolute;
+  color: white;
+}
+.post-body .prev-next > a.prev {
+  position: relative;
   bottom: 3px;
   left: 5px;
   width: 40%;
   height: 40px;
-  font-size: 16px;
   cursor: pointer;
-  margin-top: 10px;
-  background: none;
-  border: none;
   display: flex;
   align-items: center;
   justify-content: center;
-  }
-.post-body .prev-and-next a.klik-prev {
+}
+.post-body .prev-next > a.prev:hover::before {
+  margin-right: 80px;
   color: white;
-  border-radius: 5px;
-  background: #767EEB;
-  font-family: 'Source Sans Pro', sans-serif;
-  }
-.post-body .prev-and-next a.klik-prev:hover {
-  background: #4E4DED;
-  }
-.post-body .prev-and-next a.klik-prev svg {
+}
+.post-body .prev-next > a.prev::before {
+  content:"\f060";
+  font-family: FontAwesome;
   position: absolute;
   margin-right: 50px;
-  fill: transparent;
+  color: transparent;
   transition: 500ms;
-  }
-.post-body .prev-and-next a.klik-prev span {
-  transition: 500ms;
-  }
-.post-body .prev-and-next a.klik-prev:hover svg {
-  margin-right: 80px;
-  fill: white;
-  }
+}
 
 
 
