@@ -699,12 +699,11 @@ to { opacity: 1; transform: translateY(0);
 
  /* Div .pinleft
 ---------------------------------------------------*/
-.post-body .pin {
+.post-body .read-too {
   margin-left:  10px;
   margin-right:  10px;
   padding-left:  15px;
   font-weight: bold;
-  font-style: italic;
   box-sizing: border-box;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
