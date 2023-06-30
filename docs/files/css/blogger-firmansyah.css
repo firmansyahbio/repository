@@ -1180,7 +1180,7 @@ div.toc:active ~ :target::before {
 }
 .list-overview .list-ov a:visited::before {
   color: #fff;
-  background: #4E4DED;
+  background: deeppink;
   border-radius: 5px;
   border: 1px solid #fff;
 }
@@ -1196,7 +1196,7 @@ div.toc:active ~ :target::before {
   position: absolute;
   color: #f9fafb;
   background: #f9fafb;
-  border: 1px solid #4E4DED;
+  border: 1px solid deeppink;
   content: attr(nike-alt);
 }
 .list-overview .list-ov a {
@@ -1205,9 +1205,10 @@ div.toc:active ~ :target::before {
    margin-bottom: 5px;
    border-radius: 5px;
    color: #fff;
-   font-size: 16px;
+   font-weight: 500;
+   font-size: 17px;
    box-sizing: border-box;
-   background: deeppink;
+   background: #4E4DED;
 }
 
 
@@ -1215,16 +1216,16 @@ div.toc:active ~ :target::before {
 
 /* Text Position 
 ---------------------------------------------------*/
-.post-body .text_left {
+.post-body .text-left {
   text-align: left;
   }
-.post-body .text_right {
+.post-body .text-right {
   text-align: right;
   }
-.post-body .text_center {
+.post-body .text-center {
   text-align: center;
   }
-.post-body .text_justify {
+.post-body .text-justify {
   text-align: justify;
   }
 
