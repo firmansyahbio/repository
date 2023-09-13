@@ -1816,9 +1816,9 @@ background-color: rgb(255, 255, 255);
   letter-spacing: 3px;
   font-family: 'Lato', sans-serif;
 }
-.post-body pre code.language-css::before,
-.post-body pre code.language-scss::before,
-.post-body pre code.language-sass::before,
+.post-body pre code.language-css.css::before,
+.post-body pre code.language-css.scss::before,
+.post-body pre code.language-css.sass::before,
 .post-body pre code.language-html::before,
 .post-body pre code.language-js::before {
   z-index: 5;
@@ -1828,13 +1828,13 @@ background-color: rgb(255, 255, 255);
   font-size: 16px;
   position: absolute;
 }
-.post-body pre code.language-css::before {
+.post-body pre code.language-css.css::before {
   content:"Css";
 }
-.post-body pre code.language-scss::before {
+.post-body pre code.language-css.scss::before {
   content:"Scss";
 }
-.post-body pre code.language-sass::before {
+.post-body pre code.language-css.sass::before {
   content:"Sass";
 }
 .post-body pre code.language-html::before {
@@ -1878,8 +1878,6 @@ background-color: rgb(255, 255, 255);
   border-radius:5px;
 } 
 .language-css,
-.language-scss, 
-.language-sass,
 .language-html,
 .language-js {
   user-select:none;
